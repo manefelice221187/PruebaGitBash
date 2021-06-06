@@ -29,3 +29,6 @@ git branch nombreBranch -d -- borra el branch
 ------------------------------
 buscar pryecto en github, copiar. Abrir terminal bash en la carpeta donde quiero clonar el proyecto.
 git clone https://github.com/codigofacilito/javascript_DOM.git -- clona el proyecto de github en el repositorio
+-------------------
+git remote add origin link -- conecta al repositorio
+git push origin master -- sube al github
