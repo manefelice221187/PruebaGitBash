@@ -23,6 +23,9 @@ Deja el commit, indicado en el comando, como último modificando el proyecto con
 
 git brach -- dice los branch existentes
 
-git checkout Branch -- Cambia de branch
+git checkout "Branch" -- Cambia de branch
 
 git branch nombreBranch -d -- borra el branch
+------------------------------
+buscar pryecto en github, copiar. Abrir terminal bash en la carpeta donde quiero clonar el proyecto.
+git clone https://github.com/codigofacilito/javascript_DOM.git -- clona el proyecto de github en el repositorio
