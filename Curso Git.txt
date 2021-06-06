@@ -22,3 +22,5 @@ Deja el commit, indicado en el comando, como último sin modificar el proyecto.
 Deja el commit, indicado en el comando, como último modificando el proyecto con las características de dicho commit.
 
 git brach -- dice los branch existentes
+
+git checkout Branch -- Cambia de branch
