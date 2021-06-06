@@ -1,0 +1,24 @@
+git init: Crea un repositorio local.
+
+git status: Pregunta el status de nuestro repositorio.
+
+git add: Agrega archivos al Staging Area
+
+git add -A: Agregar todos los archivos al Staging Area.
+
+git rm --cached *nombre y extension del archivo*: Quita un archivo del Staging Area
+
+git commit m- "mensaje" -- primer commit
+
+git log - datos sobre el commit
+
+git checkout codigodecommit -- para viajar a commit anteriores
+
+git checkout master -- para volver al ultimo commit
+
+1. Reset soft: git reset --soft <id_commit>
+Deja el commit, indicado en el comando, como último sin modificar el proyecto.
+2. Reset hard: git reset --hard <id_commit>
+Deja el commit, indicado en el comando, como último modificando el proyecto con las características de dicho commit.
+
+git brach -- dice los branch existentes
