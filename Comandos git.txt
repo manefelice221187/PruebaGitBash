@@ -41,4 +41,4 @@ git reset --soft HEAD^(2 o 3, 4, etc) o hash del ultimo commit:  borra el ultimo
 git reflog: trae un listado de la historia de comandos que se realizaron, en orden cronologico
 git mv "nombre archivo" "otro nombre archivo".. renombra el archivo
 git rm "nombre arch": Elimina el archivo pero sigue estando en el stage. Para eliminarlo, hacer commit
------------------
+git switch -c "nombre nuevo branch" -- crea el branch y cambia
