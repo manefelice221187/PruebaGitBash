@@ -1,0 +1,43 @@
+--"palabras completas"
+-"abreviaturas"
+git help: ayuda
+:q --sale de lo q esta mostrando
+git --version: version de git instalada
+git config --global init.defaultBranch main : Cambia el nombre Master a Main
+git config --global user.name "Mane": configuracion del nombre
+git config --global user.email "...@naranja.com": configuracion del email
+git config --global -e: muestra para modificar el user y alias
+                        a: permite modificas
+                        esc: para salir del estado de modificacion
+                        :wq! graba y sale
+
+Para configurar el mail pero en un repositorio local
+git config user.email "email@example.com" (sin global)
+
+git init: inicializa el branch. Crea carpteta .git. Tiene referencia de todos los archivos en el repositorio
+git status: indica el estado en q esta 
+git add "nombre archivo": Deja en un estado para realizar commit. Lo agrega al stage
+git reset "nombre archivo": Deshace el add
+git commit: toma la foto del repositorio
+          -m "comentario": aqui va el comentario
+
+Algunos en la próxima clase han presentado este problema con el CRLF, no es nada serio, es básicamente una interpretación de un carácter.
+
+Simplemente ejecuten este comando si presentan el error:
+
+git config core.autocrlf true
+
+git checkout --. : reconstruye el proyecto como el último commit
+ 
+git branch: indica en que branch esta parado
+
+git commit -am "comentario": Realiza el add y luego el commit
+git log: muestra los commit realizados
+git diff: muestra las diferencias en los archivos
+git diff --staged: muestra las diferencias pero de los archivos que estan en el stage
+------------revertir comentarios en commit y commit
+git commit --amend -m "nuevo comentario": Cambia el comentario en el ultimo commit
+git reset --soft HEAD^(2 o 3, 4, etc) o hash del ultimo commit:  borra el ultimo commit y vuelve atras
+git reflog: trae un listado de la historia de comandos que se realizaron, en orden cronologico
+git mv "nombre archivo" "otro nombre archivo".. renombra el archivo
+git rm "nombre arch": Elimina el archivo pero sigue estando en el stage. Para eliminarlo, hacer commit
