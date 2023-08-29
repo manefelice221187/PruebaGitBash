@@ -1,0 +1,98 @@
+--------------unix
+grep you grep.txt -n (--line-number) 
+grep you grep.txt -c (--count)
+
+# comando 1
+grep You grep.txt
+# comando 2  (--ignore-case) 
+grep YoU grep.txt -i
+
+ls -lt
+--------------apagado
+shutdown -s -t 600
+--------------Cobol
+ERASE: Borrar
+INSPECT DATO CONVERTING LOWER-ALPHA TO UPPER-ALPHA --Minuscula a mayuscula 
+
+53600-CREA-VENTANA.
+    DISPLAY WCB LINE POS-Y  POSITION POS-X ERASE
+                   CONTROL "WINDOW-CREATE" LOW
+
+53620-CIERRA-VENTANA.
+    DISPLAY WCB LINE POS-Y POSITION POS-X
+                   CONTROL "WINDOW-REMOVE".
+                   
+"Cambiar a CLAVE " LINE 16 POSITION 08 BLINK; //Hace que titile                   
+
+--------------debug
+accept variable line 1 position 70 update
+    ACCEPT PRUEBA LINE 1 POSITION 70 UPDATE
+--------------
+80*20 tamaño de pantalla           
+
+--------------Negocio
+TFormatear:Rutinas de formateo de una cadena
+          - "C" : Centra una cadena tomando a WTAM como el largo de la  *
+                : cadena.                                               *
+          --------------------------------------------------------------*
+          - "I" : Justifica una cadena a la Izquierda tomando a WTAM    *
+                : como el largo de la cadena.                           *
+          --------------------------------------------------------------*
+          - "D" : Justifica una cadena a la Derecha tomando a WTAM      *
+                : como el largo de la cadena.                           *
+          --------------------------------------------------------------*
+          - "Q" : Quita los espacios consecutivos y los espacios de la  *
+                : derecha de una cadena a la Derecha tomando a WTAM     *
+                : como el largo de la cadena.                           *
+          --------------------------------------------------------------*
+          - "E" : Elimina/Quita todos los espacios de una cadena        *
+                : tomando a WTAM como el largo de la cadena.            *
+          --------------------------------------------------------------*
+          - "T" : Determina el tamaño de una cadena, el valor resultante*
+                : lo regresa en WTAM.                                   *
+          --------------------------------------------------------------*
+          - "L" : Convierte una cadena a Minusculas. 
+          --------------------------------------------------------------*
+          - "U" : Convierte una cadena a Mayusculas.                    *
+          --------------------------------------------------------------*
+          - "Y" : Genera la referencia/factura Larga (25 caracteres)    *
+          --------------------------------------------------------------*
+          - "Z" : Genera la referencia/factura Corta (12 caracteres) 
+          --------------------------------------------------------------*
+          - "K" : Genera un nombre de archivo valido para los LOCKS/    *
+                : BLOQUEOS en el sistema: 
+-------------------
+
+      * 19/Junio/2023                                   Marcelo Felice *
+      * - Se corrigio al momento de limpiar los campos para que,       *
+      *   cuando despligue el tipo de ruta, no muestre siempre la      *
+      *   palabra "Foraneo"                                            *
+      ******************************************************************                
+      
+-----------------      
+I noticed that you want to transfer funds to Interactive Brokers, 
+ in this case, we recommend you withdraw your funds to yourself for 
+ security reasons, even though we allow you to transfer from your balance 
+ to somebody else's account (for example if Interactive Brokers has a bank
+ account that you can send them money) this might be rejected and returned 
+ to Deel.
+Other than that, you can transfer money into a crypto account using your Binance international account or Coinbase account.
+------------------
+PREMIOBONV_1500
+-----------------
+1  = control + a
+5  = control + e
+11 = control + k
+13 = enter
+14 = control + n
+16 = control + p
+18 = control + r
+22 = control + v
+23 = control + w
+27 = escape
+52 = flecha arriba
+53 = flecha abajo
+58 = tab
+-----------------
+gas 21360082
+luz 0285060102
